@@ -1,0 +1,111 @@
+.container{
+    padding: 10px;
+    width: 900px;
+    height: 1070px;
+    border: 1px solid #000;
+}
+.header-top{
+    width: 90%;
+    height: 200px;
+    background-color: rgb(222,95,62);
+    margin: auto;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+.head-1{
+    padding: 10px;
+    width: 250px;
+    height: 360px;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.head-1 ul{
+    list-style-type: none;
+}
+
+.head-1 input{
+    background-color: coral;
+color: white;
+
+
+}
+.head-2{
+padding: 10px;
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid chocolate;
+    color: black;
+    margin-bottom: 50px;
+    margin-top: 220px;
+}
+.taem{
+    margin-top: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+.taem div {
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color:rgb(242,248,250) ;
+    width: 250px;
+    height: 250px;
+}
+.taem div p{
+    font-size:25px;
+    display: grid;
+    justify-content: center;
+    color: rgb(239,154,131);
+}
+.taem ul{
+    list-style-type:none;
+}
+.head-1 ul ::before{
+    content: "\f00c";
+   background-color: chartreuse;
+}
+.taem input{
+    color: rgb(239,154,131);
+    background-color: transparent;
+    border: none;
+
+    
+}
+.taem  div input ::before{
+    content: '\f20a';
+    background-color: antiquewhite;
+}
+.folder{
+    padding: 10px;
+    display:grid ;
+    border: 1px solid red;
+    width: 876px;
+    height: 326px
+    justify-content: space-around;
+    grid-template-columns: auto auto auto auto;
+    background-image:url('../img/tamer.jpg');
+    color: #000;
+
+}
+.folder input{
+    background-color:rgb(223 120 30);
+    color: #fff;
+    border: 1px solid rgb(239,154,131);
+    width: 100px;
+    height: 30px;
+    margin-top: 100px;
+
+}
+.folder img{
+    width: 333px;
+    height: 325px;
+}
+
+
