@@ -67,9 +67,11 @@ padding: 10px;
 .taem ul{
     list-style-type:none;
 }
-.head-1 ul ::before{
+.head-1 ul li::before{
     content: "\f00c";
-   background-color: chartreuse;
+   color: chartreuse;
+   font-family: 'FontAwesome';
+   height: 10px;
 }
 .taem input{
     color: rgb(239,154,131);
@@ -78,9 +80,10 @@ padding: 10px;
 
     
 }
-.taem  div input ::before{
+.taem  div input::before{
     content: '\f20a';
     background-color: antiquewhite;
+    font-family: 'FontAwesome';
 }
 .folder{
     padding: 10px;
@@ -108,4 +111,9 @@ padding: 10px;
     height: 325px;
 }
 
-
+.zero{
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    border: 1px solid red;
+}
